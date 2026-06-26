@@ -1,6 +1,6 @@
 import { test, expect } from '../../pages/fixtures/Fixtures'
 import { InventoryPage } from '../../pages/saucedemopages/inventorypage';
-import { Checkout } from '../../pages/saucedemopages/Checkoutpage'
+import { Checkout } from '../../pages/saucedemopages/checkoutpage'
 test('checkoutpage', async ({ loggedInpage }) => {
     const inventory = new InventoryPage(loggedInpage);
     const checkout = new Checkout(loggedInpage)
